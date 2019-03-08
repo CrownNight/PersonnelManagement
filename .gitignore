@@ -1,0 +1,10 @@
+node_modules
+*.lock.json
+*.sln.iml
+*.suo
+/.vs
+*.user
+/cms_personnelManagement/***/bin/
+/cms_personnelManagement/obj/
+/cms_personnelManagement/obj/Debug/netcoreapp2.1
+/cms_personnelManagement/bin/Debug/netcoreapp2.1

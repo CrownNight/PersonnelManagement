@@ -11,7 +11,6 @@ let app = express();
 
 //读取wwwroot下的静态文件
 
-console.log(express.static(path.resolve(__dirname,"/wwwroot/",outputPath)));
 app.use(express.static(path.resolve(__dirname,"/wwwroot/",outputPath)));
 
 let compiler = webpack(config);

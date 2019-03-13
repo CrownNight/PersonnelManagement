@@ -23,6 +23,6 @@ namespace cms_personnelManagement.DataBase
                 optionsBuilder.UseMySQL(Connection);
         }
 
-        public DbSet<InfoDto> infos { get; set; }
+        public DbSet<userInfoDto> userInfo { get; set; }
     }
 }

@@ -19,7 +19,7 @@ namespace cms_personnelManagement.Controllers
         [HttpGet("info")]
         public IActionResult GetInfo()
         {
-            var list = db.infos.Where(x => x.Id == 1).ToList();
+            var list = db.userInfo.Where(x => x.Id == 1).ToList();
             return Ok(list);
         }
     }

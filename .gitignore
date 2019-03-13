@@ -5,6 +5,8 @@ node_modules
 /.vs
 *.user
 /cms_personnelManagement/***/bin/
+/cms_personnelManagement/package-lock.json
 /cms_personnelManagement/obj/
+/cms_personnelManagement/wwwroot/_build/
 /cms_personnelManagement/obj/Debug/netcoreapp2.1
 /cms_personnelManagement/bin/Debug/netcoreapp2.1

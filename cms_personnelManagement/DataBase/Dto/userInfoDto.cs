@@ -2,9 +2,9 @@
 
 namespace cms_personnelManagement.DataBase.Dto
 {
-    public class InfoDto
+    public class userInfoDto
     {
-        public InfoDto()
+        public userInfoDto()
         {
             Id = 0;
             Info = string.Empty;
